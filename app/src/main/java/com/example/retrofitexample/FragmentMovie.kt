@@ -18,6 +18,7 @@ class FragmentMovie : Fragment(R.layout.movie_fragment) {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+
         val view = super.onCreateView(inflater, container, savedInstanceState)
         binding = MovieFragmentBinding.bind(view!!)
         return view
